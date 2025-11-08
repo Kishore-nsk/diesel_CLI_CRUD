@@ -1,0 +1,8 @@
+[package]
+name = "diesel_cli_crud"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+diesel = { version = "2.2.0", features = ["postgres"] }
+dotenv = "0.15"
